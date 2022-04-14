@@ -1,8 +1,8 @@
 import dados from "../data/index.js";
-import pesquisar from "../js/usuario.js";
+import nameDoUsuario from "./name.js";
 
 const {dadosUsuarios, usuario} = dados
-console.log(pesquisar)
+console.log(nameDoUsuario)
 //console.log(dadosUsuarios)
 console.log(usuario)
 
