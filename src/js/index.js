@@ -1,16 +1,14 @@
 import dados from "../data/index.js";
-import nameDoUsuario from "./name.js";
+import funcoes from "./name.js";
 
 const {dadosUsuarios, usuario} = dados
-console.log(nameDoUsuario)
-//console.log(dadosUsuarios)
-console.log(usuario)
+//const {dadosUsuarios, usuario:{address}} = dados
 
-for (let usuario of dadosUsuarios){
-    //console.log(usuario.id)
-    //console.log(usuario.name)
-    // console.log(usuario.username)
-}
+funcoes.procurarUsuario(dadosUsuarios,"Ervin Howell")
+funcoes.procurarEnderecoUsuario(dadosUsuarios, "Ervin Howell")
+funcoes.buscarUsuario(dadosUsuarios, "Ervin Howell")
+
+
 
 // Criar uma função para pesquisar um usuário na lista de usuários 
 
